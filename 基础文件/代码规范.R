@@ -3,9 +3,9 @@
 # 加载通用数据预览函数
 source("/Users/hanxiangming/Library/CloudStorage/Dropbox/documents/GitHubLocal/BioNotes/基础文件/预览数据.R")
 # 创建新的文件夹
-dir.create(fp(A_proj, "改动"), recursive = TRUE, showWarnings = T) # 创建完成后删掉
+# dir.create(fp(A_proj, "改动"), recursive = TRUE, showWarnings = T) # 创建完成后删掉
 # 设置当前项目工作目录
-setwd(fp(A_proj, "改动"))
+setwd(fp("/Users/hanxiangming/Library/CloudStorage/Dropbox/documents/GitHubLocal/BioNotes/"))
 # 定义结果文件夹路径（版本控制建议使用v01/v02等）
 res1 = "results/v01/"
 res2 = "results/v02/"
