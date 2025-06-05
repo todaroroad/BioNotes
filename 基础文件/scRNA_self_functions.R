@@ -370,7 +370,7 @@ DotPlot_self_v2=function (object, assay = NULL, features, cols = c("lightgrey",
       panel.border = element_rect(size = 2),
       axis.ticks = element_line(colour = "black", size = 1),
       panel.grid = element_blank(),
-      text=element_text(family="Arial",size=22,face="bold"),
+      text=element_text(size=22,face="bold"),
       axis.title.x = element_text(margin = margin(t = 1),color = "black"),  # 调整x轴标签距离
       axis.title.y = element_text(margin = margin(r = 1),color="black"),   # 调整y轴标签距离
       

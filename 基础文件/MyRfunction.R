@@ -78,7 +78,7 @@ purple <- "#3A236B";lightblue <- "#A7DCF8";seagreen <- "#7B9C4A";nake <- "#BDA59
 # 画图的美化规范####################################
 ## 基本的theme################
 self_base_theme = theme(
-  text=element_text(family="Arial",face="plain",colour = "black",size = 10),
+  text=element_text(face="plain",colour = "black",size = 10),
   axis.title.x = element_text(margin = margin(t= 2, r = 0, b = 0, l = 0),angle = 0,vjust = 0.5, hjust = 0.5,color = "black",size = 10.1),
   axis.title.y = element_text(margin = margin(t= 0, r = 2, b = 0, l = 0),angle = 90,vjust = 0.5, hjust = 0.5,color="black",size = 9.9),
   axis.text.x = element_text(margin = margin(t = 2),color = "black",size = 10.1),
